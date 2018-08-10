@@ -21,6 +21,6 @@ app.listen(port, function() {
   console.log('app started');
 })
 app.get('/', function(req, res){
-  res.send('hello');
+  res.send('hello world');
 
 })
