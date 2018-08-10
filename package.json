@@ -1,0 +1,23 @@
+{
+  "name": "new_photography",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brittonb3/node_photography.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brittonb3/node_photography/issues"
+  },
+  "homepage": "https://github.com/brittonb3/node_photography#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3"
+  }
+}
