@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photography</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative|Italianno|Spectral+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+  </head>
+
+  <!-- <body oncontextmenu="return false;"> -->
+  <body>
+    <div class="main-container">
+      <!-- Navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top slow" id="nav">
+        <div class="container-fluid nav-set">
+          <input type="checkbox" id="navbar-toggle-cbox">
+          <div class="navbar-header">
+            <button for="navbar-toggle-cbox" id="nav-ham" class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar top-bar"></span>
+              <span class="icon-bar bottom-bar"></span>
+            </button>
+
+              <a class="logo-link" href="/"><img src="../img/GB-Front-Crown-5.png" class="logo-2" alt="Great Britton logo"/><img src="../img/GB-full-crop-5.png" class="logo" alt="Great Britton logo"/></a>
+          </div>
+          <div id="navbar" class="navbar-right navbar-collapse collapse ">
+            <ul class="nav navbar-nav">
+              <li><a href="/portfolio">Portfolio</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contacts/new">Contact</a></li>
+              <li><a href="/posts">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav> <!-- /Nabvar -->
+
+      <!-- <div id="copy-alert">
+        <p>These images are protected by copyright. All
+          rights reserved. Unauthorized use is prohibited.</p>
+      </div>
+       -->
+
+        <!-- main content -->
+       <%- defineContent('main') %>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container text-center foot-container">
+          <a href="https://www.instagram.com/greatbritton85/" class="social-foot" target="_blank"><i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/GreatBritton85" class="social-foot" target="_blank"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/britt.baumann.7" class="social-foot" target="_blank"><i class="fab fa-facebook-f fa-2x" aria-hidden="true"></i></a>
+          <p class="foot-copyright"><small> &copy; 2018 Britton Baumann | All Rights Reserved </small></p>
+        </div>
+      </footer>
+    </div>
+
+  </body>
+</html>
