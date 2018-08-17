@@ -1,0 +1,193 @@
+/* ////////// Portfolio ////////// */
+
+.port-header {
+  text-align: center;
+  margin-top: 80px;
+  font-family: 'Cinzel', serif;
+  color: #000;
+}
+
+.port-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.port-links {
+  padding: 5px;
+  color: #000 !important;
+}
+
+.port-links:hover {
+  color: #03dbdb !important;
+}
+
+.port-page {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.port-column {
+  flex: 100%;
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+.port-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.img-real, .img-head, .img-land, .img-city {
+  width: 100%;
+}
+
+.port-page {
+  display: none;
+}
+
+.active {
+  display: flex;
+}
+
+.active-color {
+  color: #03dbdb !important;
+}
+
+.img-city:hover, .img-land:hover, .img-real:hover {
+  cursor: pointer;
+}
+
+
+
+
+/* //////// Port Modal ///////// */
+
+
+#modal-container {
+  visibility: hidden;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
+}
+
+#modal-content {
+  position: inherit;
+  display: flex;
+  max-width: 100%;
+  max-height: 80%;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.modal-nav {
+  position: absolute;
+  width: 50%;
+  text-decoration: none;
+  z-index: 999999;
+  height: 25%;
+  margin-top: 0 auto;
+}
+
+#close-modal {
+  position: absolute;
+  top: 65px;
+  right: 5px;
+  z-index: 9999999;
+  height: 50px;
+  width: 50px;
+}
+
+.icon-bar {
+  z-index: 99999;
+}
+
+.port-prev {
+  left: -1px;
+}
+
+.port-next {
+  right: 1px;
+}
+
+.prev-logo {
+  position: absolute;
+  top: 46%;
+  margin-left: 8px;
+}
+
+.next-logo {
+  position:  absolute;
+  top: 46%;
+  right: 0;
+  margin-right: 8px;
+}
+
+.modal-nav:hover .prev-logo, .modal-nav:hover .next-logo{
+
+  cursor: pointer;
+  color: #03dbdb;
+
+}
+
+.modal-nav:hover {
+  cursor: pointer;
+}
+
+
+.icon-bar {
+    position: absolute;
+    height: 2px;
+    width: 37%;
+    left: 33%;
+    background: #fff;
+    border-radius: 50px;
+}
+.top-bar {
+  transform: rotate(135deg);
+  top: 49%;
+}
+.bottom-bar {
+  transform: rotate(45deg);
+  top: 49%;
+}
+
+#close-modal:hover .icon-bar {
+
+  cursor: pointer;
+  background: #03dbdb;
+
+}
+
+#close-modal:hover {
+  cursor: pointer;
+}
+
+
+.modal-p {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+
+
+  .port-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+
+}

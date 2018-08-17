@@ -13,7 +13,6 @@ router.get('/', function(req, res) {
   res.render('pages/index');
 });
 
-// router for portfolio
 router.get('/portfolio', function(req, res) {
   res.render('pages/portfolio');
 });
@@ -21,7 +20,7 @@ router.get('/portfolio', function(req, res) {
 // routes for our about page
 router.get('/about', function(req, res) {
   res.render('pages/about');
-})
+});
 
 
 // router for contact

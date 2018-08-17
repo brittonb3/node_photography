@@ -1,0 +1,79 @@
+<%- contentFor('main') %>
+<div class="container-fluid portfolio-cont">
+  <header>
+    <h1 class="port-header">Portfolio</h1>
+  </header>
+  <nav class="port-nav">
+    <a href="#" id="cityscape-link" class="port-links active-color">Cityscape</a>
+      <a href="#" id="landscape-link" class="port-links">Landscape</a>
+    <a href="#" id="real-estate-link" class="port-links">Real Estate</a>
+  </nav>
+  <main>
+    <div id="modal-container">
+        <!--  image_tag("", :alt => "Britt", :id => "modal-content" )  -->
+        <img src="" alt="Image" id="modal-content" />
+        <a id="close-modal">
+          <span id="top-bar" class="icon-bar top-bar"></span>
+          <span id="bottom-bar" class="icon-bar bottom-bar"></span>
+        </a>
+        <a class="modal-nav port-prev" id="port-prev"><i class="fa fa-chevron-left fa-2x prev-logo" aria-hidden="true"></i></a>
+        <a class="modal-nav port-next" id="port-next" ><i class="fa fa-chevron-right fa-2x next-logo" aria-hidden="true"></i></a>
+    </div>
+    <section>
+      <div class="port-row">
+        <section class="cityscape-port port-page active">
+          <div class="port-column">
+            <img src="../img/Duluth_bw_city.jpg" alt="Duluth, MN. Black and white photo of Duluth arial lift bridge" class="img-city" data-number="0" />
+            <img src="../img/MSP_stonetop_city.jpg" alt="Sunset photo of Minneapolis from stone arch bridge." class="img-city" data-number="1" />
+            <img src="../img/NYC_freeway_city.jpg" alt="Photo of Downtown Manhatten" class="img-city" data-number="2" />
+            <img src="../img/Duluth_day_city.jpg" alt="Duluth, MN. Day photo of Duluth arial lift bridge" class="img-city" data-number="3" />
+            <img src="../img/NYC_man_city.jpg" alt="Photo of Manhatten" class="img-city" data-number="4" />
+            <img src="../img/NYC_mem_city.jpg" alt="Photo of 9/11 memorial" class="img-city" data-number="5" />
+          </div>
+          <div class="port-column">
+            <img src="../img/MSP_car_city.jpg" alt="Image of Minneapolis at night with car trails." class="img-city" data-number="6" />
+            <img src="../img/Duluth_night_city.jpg" alt="Duluth, MN. Night photo of Duluth arial lift bridge" class="img-city" data-number="7" />
+            <img src="../img/MSP_stonewater_city.jpg" alt="Photo of Minneapolis from below stone arch bridge" class="img-city" data-number="8" />
+            <img src="../img/NYC_sun_city.jpg" alt="Photo of New Jersey from manhatten" class="img-city" data-number="9" />
+            <img src="../img/NYC_freedom_city.jpg" alt="Photo of Freedom tower in NYC." class="img-city" data-number="10" />
+            <img src="../img/Seattle_city.jpg" alt="Photo of Seattle" class="img-city" data-number="11" />
+          </div>
+        </section>
+        <section class="landscape-port port-page">
+          <div class="port-column">
+            <img src="../img/Split_rock_land.jpg" alt="Photo of Split Rock Lighthouse in MN" class="img-land" data-number="0" />
+            <img src="../img/Skagway_land.jpg" alt="Photo of Skagway, AK" class="img-land" data-number="1" />
+            <img src="../img/Yellow_waterfall_land.jpg" alt="Photo of waterfall in Yellowstone National Park" class="img-land" data-number="2" />
+            <img src="../img/Alaska_glac_land.jpg" alt="Photo of glacier falling" class="img-land" data-number="3" />
+            <img src="../img/MT_reading2_land.jpg" alt="Photo of Man reading in Glacier National Park in MT" class="img-land" data-number="4" />
+            <img src="../img/Rush_flags_land.jpg" alt="Photo of Mount Rushmore." class="img-land" data-number="5" />
+          </div>
+          <div class="port-column">
+            <img src="../img/MT_road_land.jpg" alt="Photo of Smoke filled sunrise in MT" class="img-land" data-number="6" />
+            <img src="../img/Cloud_tree_land.jpg" alt="Photo of frost covered tree." class="img-land" data-number="7" />
+            <img src="../img/Alaska_fog_land.jpg" alt="Photo of a foggy mountain in AK." class="img-land" data-number="8" />
+            <img src="../img/MT_tess_land.jpg" alt="Photo of a ranch in MT with smoke filled skies." class="img-land" data-number="9" />
+            <img src="../img/MT_chair_land.jpg" alt="Photo of cabin in MT with smoke filled skies." class="img-land" data-number="10" />
+          </div>
+        </section>
+        <section class="real-estate-port port-page">
+          <div class="port-column">
+            <img src="../img/bath.jpg" alt="Modern bathroom" class="img-real" data-number="0" />
+            <img src="../img/cabin.jpg" alt="Cabin livingroom" class="img-real" data-number="1" />
+            <img src="../img/bed-cup.jpg" alt="Master bedroom" class="img-real" data-number="2" />
+            <img src="../img/living.jpg" alt="Livingroom" class="img-real" data-number="3" />
+            <img src="../img/Kitchen-in.jpg" alt="Kitchen looking towards the house" class="img-real" data-number="4" />
+            <img src="../img/Kitchen-out.jpg" alt="Kitchen looking outside." class="img-real" data-number="5" />
+          </div>
+          <div class="port-column">
+            <img src="../img/bar.jpg" alt="Bar" class="img-real" data-number="6" />
+            <img src="../img/m-kitchen.jpg" alt="Modern kitchen" class="img-real" data-number="7" />
+            <img src="../img/small-bath.jpg" alt="Guest bathroom." class="img-real" data-number="8" />
+            <img src="../img/bed.jpg" alt="Modern bedroom" class="img-real" data-number="9" />
+            <img src="../img/guest-bedroom.jpg" alt="Guest bedroom" class="img-real" data-number="10" />
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+</div>
