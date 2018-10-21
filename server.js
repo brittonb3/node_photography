@@ -15,11 +15,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // router our app
-const router = require('./app/routes');
+const router = require('./public/routes');
 app.use('/', router);
 
 // set static files (css and images, ect) location
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/assets'));
 
 // start server
 app.listen(port, function() {
