@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // router our app
-const router = require('./public/app.js');
+const router = require('./app.js');
 app.use('/', router);
 
 // set static files (css and images, ect) location
